@@ -1,0 +1,5 @@
+str = "joonas"
+str1 = "??!"
+
+print(str)
+print(str + str1)

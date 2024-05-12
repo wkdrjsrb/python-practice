@@ -1,0 +1,4 @@
+a = int(input("나이입력 : "))
+b = int(input("나이입력 : "))
+c = a+b
+print(c)
