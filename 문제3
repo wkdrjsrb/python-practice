@@ -1,3 +1,69 @@
-a = 10
-b = 20
-print(a - b)
+A = input("첫번째 수를 입력하시오. : ")
+B = input("두번째 수를 입력하시오. : ")
+if A > B:
+    print(">")
+elif A < B:
+    print("<")
+else:
+    print("==")
+
+# a = int(input("시험 성적을 입력하시오. : "))
+# if a >= 90:
+#     print("A")
+# elif a>=80 and a<90:
+#     print("B")
+# elif a >=70 and a < 79:
+#     print("C")
+# elif a >= 60 and a < 69:
+#     print("D")
+# else:
+#     print("F")
+
+# year = int(input("연도를 입력하세요: "))
+# if (year % 4 == 0 and year % 100 != 0) or year % 400 == 0:
+#     print(1)
+# else:
+#     print(0)
+
+# x = float(input("x 좌표를 입력하세요: "))
+# y = float(input("y 좌표를 입력하세요: "))
+# if x > 0 and y > 0:
+#     print("제1사분면")
+# elif x < 0 and y > 0:
+#     print("제2사분면")
+# elif x < 0 and y < 0:
+#     print("제3사분면")
+# elif x > 0 and y < 0:
+#     print("제4사분면")
+# else:
+#     print("좌표 축 위에 있습니다.")
+
+# hour = int(input("시간 입력 : "))
+# minute = int(input("분 입력 : "))
+# a = minute - 45
+# if a < 0:
+#     a += 60
+#     hour -= 1
+#     if hour < 0:
+#         hour = 23
+# print(hour, a)
+
+# a = int(input("시작 : "))
+# b = int(input("분 : "))
+# c = int(input("요리시간 : "))
+# d = (a + (b + c) // 60) % 24 #끝나는시간
+# e = (b + c) % 60 #끝나는 분
+# print(d, e)
+
+# from random import randint
+# a = randint(1, 6)
+# b = randint(1, 6)
+# c = randint(1, 6)
+# print("주사위 눈:", a, b, c)
+# if a == b and b == c:
+#     prize = 10000 + a * 1000
+# elif a == b or b == c or a == c:
+#     prize = 1000 + (a if a == b or a == c else b) * 100
+# else:
+#     prize = max(a, b, c) * 100
+# print("상금:", prize, "원",)
